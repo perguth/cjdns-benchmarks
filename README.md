@@ -2,8 +2,8 @@
 
 ## gl-inet ar150
 
-> 1.2 MB/s
-> 6100 pkts
+> 1.2 MB/s  
+> 6100 pkt/s
 
 ```bash
 root@proxy:~# time cjdroute --bench && cat /proc/cpuinfo && cjdroute -v
@@ -91,8 +91,8 @@ Cjdns protocol version: 18
 
 ## macbook pro 2015
 
-> 146.3 MB/s
-> 502,453 pkts
+> 146.3 MB/s  
+> 502,453 pkt/s
 
 ```bash
 bash-3.2$ time cjdroute --bench && sysctl -n machdep.cpu.brand_string && brew info cjdns | head -6 && cjdroute -v
